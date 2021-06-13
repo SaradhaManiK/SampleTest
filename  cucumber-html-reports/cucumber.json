@@ -1,0 +1,162 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "As an user, I want to create new account sothat I can sign in",
+        "description": "",
+        "id": "new-account-creation-and-signin;as-an-user--i-want-to-create-new-account-sothat-i-can-sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13034788794,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user is in homepage",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_user_is_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3194102639,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks create new account",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_user_clicks_create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91276031,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the users enters the Customer name",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_users_enters_the_Customer_name(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Saradha",
+                  "",
+                  "Testname2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155323948,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the users enters the Email",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_users_enters_the_Email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "k.saradhamani@gmail.com",
+                  "",
+                  "Testname2@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122925995,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the users enters the Password",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_users_enters_the_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Saradha123",
+                  "",
+                  "Testname2123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140226753,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the users reenters the password",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_users_reenters_the_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Saradha123",
+                  "",
+                  "Testname2123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3793109450,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the users clicks Continue",
+            "match": {
+              "location": "Datatable_Stepdefinition.the_users_clicks_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45746570,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "verify the relevant message is displayed",
+            "match": {
+              "location": "Datatable_Stepdefinition.verify_the_relevant_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "New Account creation and signin",
+    "description": "",
+    "id": "new-account-creation-and-signin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/datatable.feature"
+  }
+]
